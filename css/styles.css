@@ -1,0 +1,31 @@
+label {
+    color: #999;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    font-size: inherit;
+    font-weight: 700;
+    line-height: 1.125;
+    font-size: 12px;
+    margin-bottom: 0 !important;
+}
+
+input {
+    color: #00457c;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.form-control:disabled,
+.form-control[readonly] {
+    background-color: #f8f9fa !important;
+
+}
+
+.form-control {
+    padding: 0 !important;
+    color: #00457c !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    border-bottom: 1px solid rgba(0, 69, 124, .42) !important;
+}
